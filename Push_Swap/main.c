@@ -6,7 +6,7 @@
 /*   By: iullibar <iullibar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 11:57:32 by iullibar          #+#    #+#             */
-/*   Updated: 2024/11/05 11:12:06 by iullibar         ###   ########.fr       */
+/*   Updated: 2024/11/13 16:10:05 by iullibar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	main(int argc, char *argv[])
 		indx = 1;
 	a = NULL;
 	b = NULL;
-	if (!ft_check_arguement(argv, indx))
+	if (!ft_check_argument(argv, indx))
 		ft_error(&a, &b, argv, indx);
 	push(&a, argv, indx);
 	if (!a)

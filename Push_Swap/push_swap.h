@@ -63,7 +63,7 @@ char	**split_argv(char *argv);
 int		ft_check_digit(char *argv);
 int		ft_check_limits(long int nbr);
 int		ft_check_duplicate(char **argv, int indx);
-int		ft_check_arguement(char **argv, int indx);
+int		ft_check_argument(char **argv, int indx);
 int		check_sorted(t_stack *a);
 
 //UTILS

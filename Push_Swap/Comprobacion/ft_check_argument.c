@@ -12,7 +12,7 @@
 
 #include "../push_swap.h"
 
-int	ft_check_arguement(char **argv, int indx)
+int	ft_check_argument(char **argv, int indx)
 {
 	int			refc;
 	long int	nbr;
